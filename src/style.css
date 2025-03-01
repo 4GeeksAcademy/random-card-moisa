@@ -5,11 +5,10 @@ body{
 }
 .card {
     border-radius: 10px;
-    width: 200px;
-    height: 300px;
+    width: 250px;
+    height: 400px;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 525px;
+    margin: auto;
 }
 
 .top {
