@@ -1,5 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: green;
+}
+.card {
+    border-radius: 10px;
+    width: 200px;
+    height: 300px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 525px;
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 5px;
 }
