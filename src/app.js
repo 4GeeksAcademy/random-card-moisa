@@ -7,14 +7,13 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function () {
 document.querySelector("#newcardBtn").addEventListener("click", generateCard)
-  // generateCard ()
 };
 
 const generateCard = () => {
   const iconDiv = document.querySelector(".top")
   const iconEl =  document.querySelector(".bottom")
   let icon = ["♦", "♥", "♠", "♣"]
-  let number = ["7", "9", "10", "J", "Q", "K", "A"]
+  let number = ["7", "9", "10", "J", "Q", "K", "A",]
 
   let iconIndex = Math.floor(Math.random() * icon.length)
   let numberIndex = Math.floor(Math.random() * number.length)
